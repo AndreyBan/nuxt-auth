@@ -1,5 +1,6 @@
 import { defineEventHandler, getHeaders, createError } from '#imports';
 import verifyToken from "~/server/service/verify-token.js";
+
 export default defineEventHandler(async (event) => {
     const header = getHeaders(event)
     const at = header.authorization.split(' ')[1]

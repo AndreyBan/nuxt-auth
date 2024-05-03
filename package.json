@@ -11,17 +11,17 @@
   },
   "devDependencies": {
     "@nuxt/devtools": "latest",
-    "@sidebase/nuxt-auth": "^0.6.0-beta.6",
-    "nuxt": "^3.7.4",
-    "sass": "^1.69.0",
-    "vue": "^3.3.4",
-    "vue-router": "^4.2.5"
+    "@sidebase/nuxt-auth": "^0.7.2",
+    "nuxt": "^3.11.2",
+    "sass": "^1.76.0",
+    "vue": "^3.4.26",
+    "vue-router": "^4.3.2"
   },
   "dependencies": {
     "jsonwebtoken": "^9.0.2",
     "next-auth": "4.24.7",
-    "pg": "^8.11.3",
+    "pg": "^8.11.5",
     "pg-hstore": "^2.3.4",
-    "sequelize": "^6.33.0"
+    "sequelize": "^6.37.3"
   }
 }
